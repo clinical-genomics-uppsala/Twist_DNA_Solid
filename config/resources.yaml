@@ -26,6 +26,3 @@ mutect2:
 
 gene_fuse:
   threads: 4
-
-cnvkit_call:
-  threads: 8
