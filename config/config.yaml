@@ -129,7 +129,8 @@ hotspot_info:
 
 msisensor_pro:
   container: "docker://hydragenetics/msisensor_pro:1.1.a"
-  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/hydra_test/Msisensor_pro_reference.list_baseline"
+  #PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/hydra_test/Msisensor_pro_reference.list_baseline"
+  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_UU_normal.list_baseline"
 
 tmb:
   container: "docker://hydragenetics/common:0.0.1"
@@ -143,7 +144,8 @@ gene_fuse:
 
 cnvkit_call:
   container: "docker://gmsuppsala/somatic:develop"
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/hydra_test/cnvkit.PoN.cnn"
+  #normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/hydra_test/cnvkit.PoN.cnn"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_UU_normal.PoN.cnn"
 
 cnvkit_call_loh:
   container: "docker://gmsuppsala/somatic:develop"
@@ -159,7 +161,8 @@ gatk_cnv_collect_read_counts:
 
 gatk_cnv_denoise_read_counts:
   container: "docker://gmsuppsala/somatic:develop"
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/hydra_test/gatk_cnv_panel_of_normal.hdf5"
+  #normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/hydra_test/gatk_cnv_panel_of_normal.hdf5"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_UU_normal.hdf5"
 
 gatk_cnv_collect_allelic_counts:
   container: "docker://gmsuppsala/somatic:develop"
