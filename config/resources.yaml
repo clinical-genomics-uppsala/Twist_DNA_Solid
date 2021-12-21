@@ -9,7 +9,7 @@ bwa_mem:
   threads: 10
   time: "8:00:00"
 
-fastp:
+fastp_pe:
   threads: 5
 
 vep:
@@ -26,3 +26,6 @@ mutect2:
 
 gene_fuse:
   threads: 4
+
+vardict:
+  time: "8:00:00"
