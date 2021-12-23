@@ -15,6 +15,16 @@ rule copy_bam:
         "cp {input} {output}"
 
 
+rule copy_bai:
+    input:
+        "alignment/merge_bam/{sample}_{type}.bam.bai",
+    output:
+        "results/dna/bam/{sample}_{type}.bam.bai",
+    shell:
+        "cp {input} {output}"
+
+
+
 rule copy_caller_vcf:
     input:
         "snv_indels/{caller}/{sample}_{type}.merged.vcf.gz",
