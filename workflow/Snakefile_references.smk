@@ -7,8 +7,8 @@ __email__ = "jonas.almlof@igp.uu.se"
 __license__ = "GPL-3"
 
 
-include: "rules/common_reference.smk"
-include: "rules/result_files_reference.smk"
+include: "rules/common_references.smk"
+include: "rules/result_files_references.smk"
 
 rule all:
     input:
